@@ -8,15 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProtobufViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        testPB()
+        
+        prepareUI()
+        
+//        testPB()
+        
+        sizeTest()
     }
 
+    func prepareUI() {
+        view.backgroundColor = UIColor.orange
+        navigationItem.title = "Protocol Buffer"
+    }
     
     func testPB()  {
         var person = PersonInfo()
@@ -104,6 +113,27 @@ class ViewController: UIViewController {
          name: "艾德一站通"
          address: "彩讯科创中心16层"
          */
+    }
+    
+    func sizeTest() {
+        
+        var p = PersonInfo.init()
+        p.name = "艾德"
+        p.id = 1
+        p.address = "彩讯科创中心16层"
+        
+        
+        //1、转data
+        guard let personData :Data = try? p.serializedData() else {
+            print("error");
+            return
+        }
+        print(personData.description)
+        
+        
+        let jsonString = "{\"id\":1,\"name\":\"艾德\",\"address\":\"彩讯科创中心16层\"}"
+        print(jsonString.lengthOfBytes(using: .unicode))
+        
     }
 
 }

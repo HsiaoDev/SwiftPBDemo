@@ -5,7 +5,10 @@ use_frameworks!
 
 target 'SwiftPBDemo' do
 
-pod 'SwiftProtobuf', '~> 1.8.0'
+pod 'SwiftProtobuf'
+pod 'Alamofire'
+pod 'Starscream'
+
 
 
 end

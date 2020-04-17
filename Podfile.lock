@@ -1,16 +1,24 @@
 PODS:
+  - Alamofire (4.9.1)
+  - Starscream (3.1.1)
   - SwiftProtobuf (1.8.0)
 
 DEPENDENCIES:
-  - SwiftProtobuf (~> 1.8.0)
+  - Alamofire
+  - Starscream
+  - SwiftProtobuf
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - Starscream
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftProtobuf: 2cbd9409689b7df170d82a92a33443c8e3e14a70
 
-PODFILE CHECKSUM: 7bf30b285495236593747d539aa94f11bd6d1654
+PODFILE CHECKSUM: bd9f2a793590b221b01253bb95d2942558031349
 
 COCOAPODS: 1.9.1

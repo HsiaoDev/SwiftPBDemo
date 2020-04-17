@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88111393243F184700018B6B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88111392243F184700018B6B /* TableViewController.swift */; };
+		88111395243F211E00018B6B /* AlamofilreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88111394243F211E00018B6B /* AlamofilreViewController.swift */; };
+		88111397243F22D100018B6B /* WebsocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88111396243F22D100018B6B /* WebsocketViewController.swift */; };
+		885CD3B424447A2600928C19 /* Mems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CD3B324447A2600928C19 /* Mems.swift */; };
+		885CD3B9244569D200928C19 /* EDWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CD3B8244569D200928C19 /* EDWebSocket.swift */; };
+		885CD3BB24456A1400928C19 /* EDSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CD3BA24456A1400928C19 /* EDSocket.swift */; };
+		885CD3BD2445B4F200928C19 /* EDSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CD3BC2445B4F200928C19 /* EDSocketViewController.swift */; };
+		885CD3BF2447FC7500928C19 /* EDSocketViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CD3BE2447FC7500928C19 /* EDSocketViewController2.swift */; };
 		88E477F4243DD39900737DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E477F3243DD39900737DA0 /* AppDelegate.swift */; };
 		88E477F6243DD39900737DA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E477F5243DD39900737DA0 /* SceneDelegate.swift */; };
-		88E477F8243DD39900737DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E477F7243DD39900737DA0 /* ViewController.swift */; };
-		88E477FB243DD39900737DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E477F9243DD39900737DA0 /* Main.storyboard */; };
+		88E477F8243DD39900737DA0 /* ProtobufViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E477F7243DD39900737DA0 /* ProtobufViewController.swift */; };
 		88E477FD243DD39A00737DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E477FC243DD39A00737DA0 /* Assets.xcassets */; };
 		88E47800243DD39A00737DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E477FE243DD39A00737DA0 /* LaunchScreen.storyboard */; };
 		88E47809243DD4B100737DA0 /* Person.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E47807243DD4B100737DA0 /* Person.pb.swift */; };
@@ -21,11 +28,19 @@
 /* Begin PBXFileReference section */
 		65818246F7BB03D443AF2E71 /* Pods_SwiftPBDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPBDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6747B18CCF6FD56D83494853 /* Pods-SwiftPBDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPBDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftPBDemo/Pods-SwiftPBDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88111392243F184700018B6B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		88111394243F211E00018B6B /* AlamofilreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofilreViewController.swift; sourceTree = "<group>"; };
+		88111396243F22D100018B6B /* WebsocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsocketViewController.swift; sourceTree = "<group>"; };
+		885CD3B324447A2600928C19 /* Mems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mems.swift; sourceTree = "<group>"; };
+		885CD3B8244569D200928C19 /* EDWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDWebSocket.swift; sourceTree = "<group>"; };
+		885CD3BA24456A1400928C19 /* EDSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDSocket.swift; sourceTree = "<group>"; };
+		885CD3BC2445B4F200928C19 /* EDSocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDSocketViewController.swift; sourceTree = "<group>"; };
+		885CD3BE2447FC7500928C19 /* EDSocketViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDSocketViewController2.swift; sourceTree = "<group>"; };
+		885CD3C224483D1800928C19 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E477F0243DD39900737DA0 /* SwiftPBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E477F3243DD39900737DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88E477F5243DD39900737DA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88E477F7243DD39900737DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88E477FA243DD39900737DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88E477F7243DD39900737DA0 /* ProtobufViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufViewController.swift; sourceTree = "<group>"; };
 		88E477FC243DD39A00737DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E477FF243DD39A00737DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88E47801243DD39A00737DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,15 +82,22 @@
 		88E477F2243DD39900737DA0 /* SwiftPBDemo */ = {
 			isa = PBXGroup;
 			children = (
+				885CD3B324447A2600928C19 /* Mems.swift */,
 				88E47807243DD4B100737DA0 /* Person.pb.swift */,
 				88E47808243DD4B100737DA0 /* Person.proto */,
 				88E477F3243DD39900737DA0 /* AppDelegate.swift */,
 				88E477F5243DD39900737DA0 /* SceneDelegate.swift */,
-				88E477F7243DD39900737DA0 /* ViewController.swift */,
-				88E477F9243DD39900737DA0 /* Main.storyboard */,
+				88E477F7243DD39900737DA0 /* ProtobufViewController.swift */,
 				88E477FC243DD39A00737DA0 /* Assets.xcassets */,
 				88E477FE243DD39A00737DA0 /* LaunchScreen.storyboard */,
 				88E47801243DD39A00737DA0 /* Info.plist */,
+				88111392243F184700018B6B /* TableViewController.swift */,
+				88111394243F211E00018B6B /* AlamofilreViewController.swift */,
+				88111396243F22D100018B6B /* WebsocketViewController.swift */,
+				885CD3B8244569D200928C19 /* EDWebSocket.swift */,
+				885CD3BA24456A1400928C19 /* EDSocket.swift */,
+				885CD3BC2445B4F200928C19 /* EDSocketViewController.swift */,
+				885CD3BE2447FC7500928C19 /* EDSocketViewController2.swift */,
 			);
 			path = SwiftPBDemo;
 			sourceTree = "<group>";
@@ -83,6 +105,7 @@
 		EF0D0528409A52C3BABA22AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				885CD3C224483D1800928C19 /* SocketIO.framework */,
 				65818246F7BB03D443AF2E71 /* Pods_SwiftPBDemo.framework */,
 			);
 			name = Frameworks;
@@ -159,7 +182,6 @@
 			files = (
 				88E47800243DD39A00737DA0 /* LaunchScreen.storyboard in Resources */,
 				88E477FD243DD39A00737DA0 /* Assets.xcassets in Resources */,
-				88E477FB243DD39900737DA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,10 +234,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E477F8243DD39900737DA0 /* ViewController.swift in Sources */,
+				885CD3BD2445B4F200928C19 /* EDSocketViewController.swift in Sources */,
+				88E477F8243DD39900737DA0 /* ProtobufViewController.swift in Sources */,
+				885CD3BB24456A1400928C19 /* EDSocket.swift in Sources */,
+				88111393243F184700018B6B /* TableViewController.swift in Sources */,
+				885CD3B9244569D200928C19 /* EDWebSocket.swift in Sources */,
 				88E47809243DD4B100737DA0 /* Person.pb.swift in Sources */,
 				88E477F4243DD39900737DA0 /* AppDelegate.swift in Sources */,
 				88E477F6243DD39900737DA0 /* SceneDelegate.swift in Sources */,
+				885CD3BF2447FC7500928C19 /* EDSocketViewController2.swift in Sources */,
+				88111395243F211E00018B6B /* AlamofilreViewController.swift in Sources */,
+				885CD3B424447A2600928C19 /* Mems.swift in Sources */,
+				88111397243F22D100018B6B /* WebsocketViewController.swift in Sources */,
 				88E4780A243DD4B100737DA0 /* Person.proto in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +253,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		88E477F9243DD39900737DA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88E477FA243DD39900737DA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		88E477FE243DD39A00737DA0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ed.xw.SwiftPBDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -388,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ed.xw.SwiftPBDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
